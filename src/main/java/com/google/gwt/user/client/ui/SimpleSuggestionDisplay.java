@@ -12,7 +12,7 @@ public class SimpleSuggestionDisplay extends SuggestionDisplay implements HasAni
 
    private final HTML messageLabel;
    private final SuggestionMenu suggestionMenu;
-   private final PopupPanel suggestionPopup;
+   protected final PopupPanel suggestionPopup;
 
    /**
     * We need to keep track of the last {@link SuggestBox} because it acts as an autoHide partner
